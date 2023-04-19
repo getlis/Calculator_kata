@@ -6,7 +6,6 @@ class System_numeric {
 
     String arab_regexp = "([1-9]|10){1}([-+/*]){1}([1-9]|10){1}";
     String rim_regexp = "([I]{1,3}|[IV]{1,4}|[IX]|[X])([-+/*]{1})([I]{1,3}|[IV]{1,4}|[IX]|[X])";
-//    String rim_regexp = "([XIV]{1,4})([-+/*]{1})([XIV]{1,4})";
 
     HashMap<Integer, String> arab_to_rim = new HashMap<>();
     HashMap<String, Integer> rim_to_arab = new HashMap<>();
